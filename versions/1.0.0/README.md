@@ -139,5 +139,11 @@ Available to: `compareUrlFormat`
 ### {{user}}
 Default: username to the right-hand-side of the `@` symbol in `@user` shorthand.
 
-Available to: `userUrlFormat`
+Available to: `userUrlFormat`"types": [
+    { "type": "feat", "section": "Features"},
+    { "type": "fix", "section": "Bug Fixes"},
+    { "type": "test", "section": "Tests"},
+    { "type": "build", "section": "Build System"},
+    { "type": "ci", "hidden": true}
+]
 
